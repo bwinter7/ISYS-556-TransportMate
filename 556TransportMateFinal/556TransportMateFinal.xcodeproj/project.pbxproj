@@ -18,6 +18,8 @@
 		C86CCECE2188F4CD00ADB0B5 /* screen3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCECD2188F4CD00ADB0B5 /* screen3ViewController.swift */; };
 		C86CCED02188F51B00ADB0B5 /* screen4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCECF2188F51B00ADB0B5 /* screen4ViewController.swift */; };
 		C86CCED22188F5F400ADB0B5 /* transm8logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C86CCED12188F5F400ADB0B5 /* transm8logo.png */; };
+		C89855E421B9B4A30094A99A /* stationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89855E321B9B4A30094A99A /* stationInfo.swift */; };
+		C89855E621B9CE560094A99A /* StationInfoUpdated.json in Resources */ = {isa = PBXBuildFile; fileRef = C89855E521B9CE560094A99A /* StationInfoUpdated.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		C86CCECD2188F4CD00ADB0B5 /* screen3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen3ViewController.swift; sourceTree = "<group>"; };
 		C86CCECF2188F51B00ADB0B5 /* screen4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen4ViewController.swift; sourceTree = "<group>"; };
 		C86CCED12188F5F400ADB0B5 /* transm8logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transm8logo.png; path = ../../../../../Downloads/transm8logo.png; sourceTree = "<group>"; };
+		C89855E321B9B4A30094A99A /* stationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stationInfo.swift; sourceTree = "<group>"; };
+		C89855E521B9CE560094A99A /* StationInfoUpdated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StationInfoUpdated.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +109,14 @@
 		C86CCE9C2188F29000ADB0B5 /* 556TransportMateFinal */ = {
 			isa = PBXGroup;
 			children = (
+				C89855E521B9CE560094A99A /* StationInfoUpdated.json */,
 				C86CCE9D2188F29000ADB0B5 /* AppDelegate.swift */,
 				C86CCE9F2188F29000ADB0B5 /* ViewController.swift */,
 				C86CCEA12188F29000ADB0B5 /* Main.storyboard */,
 				C86CCECF2188F51B00ADB0B5 /* screen4ViewController.swift */,
 				C86CCECD2188F4CD00ADB0B5 /* screen3ViewController.swift */,
 				C86CCECB2188F44200ADB0B5 /* screen2ViewController.swift */,
+				C89855E321B9B4A30094A99A /* stationInfo.swift */,
 				C86CCEA42188F29C00ADB0B5 /* Assets.xcassets */,
 				C86CCED12188F5F400ADB0B5 /* transm8logo.png */,
 				C86CCEA62188F29C00ADB0B5 /* LaunchScreen.storyboard */,
@@ -242,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86CCED22188F5F400ADB0B5 /* transm8logo.png in Resources */,
+				C89855E621B9CE560094A99A /* StationInfoUpdated.json in Resources */,
 				C86CCEA82188F29C00ADB0B5 /* LaunchScreen.storyboard in Resources */,
 				C86CCEA52188F29C00ADB0B5 /* Assets.xcassets in Resources */,
 				C86CCEA32188F29000ADB0B5 /* Main.storyboard in Resources */,
@@ -269,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89855E421B9B4A30094A99A /* stationInfo.swift in Sources */,
 				C86CCECE2188F4CD00ADB0B5 /* screen3ViewController.swift in Sources */,
 				C86CCEA02188F29000ADB0B5 /* ViewController.swift in Sources */,
 				C86CCECC2188F44200ADB0B5 /* screen2ViewController.swift in Sources */,
