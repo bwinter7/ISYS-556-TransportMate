@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C86CCE9E2188F29000ADB0B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCE9D2188F29000ADB0B5 /* AppDelegate.swift */; };
+		C86CCEA02188F29000ADB0B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCE9F2188F29000ADB0B5 /* ViewController.swift */; };
+		C86CCEA32188F29000ADB0B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86CCEA12188F29000ADB0B5 /* Main.storyboard */; };
+		C86CCEA52188F29C00ADB0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86CCEA42188F29C00ADB0B5 /* Assets.xcassets */; };
+		C86CCEA82188F29C00ADB0B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86CCEA62188F29C00ADB0B5 /* LaunchScreen.storyboard */; };
+		C86CCEB32188F29C00ADB0B5 /* _56TransportMateFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCEB22188F29C00ADB0B5 /* _56TransportMateFinalTests.swift */; };
+		C86CCEBE2188F29C00ADB0B5 /* _56TransportMateFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCEBD2188F29C00ADB0B5 /* _56TransportMateFinalUITests.swift */; };
+		C86CCECC2188F44200ADB0B5 /* screen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCECB2188F44200ADB0B5 /* screen2ViewController.swift */; };
+		C86CCECE2188F4CD00ADB0B5 /* screen3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCECD2188F4CD00ADB0B5 /* screen3ViewController.swift */; };
+		C86CCED02188F51B00ADB0B5 /* screen4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCECF2188F51B00ADB0B5 /* screen4ViewController.swift */; };
+		C86CCED22188F5F400ADB0B5 /* transm8logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C86CCED12188F5F400ADB0B5 /* transm8logo.png */; };
+		C89855E421B9B4A30094A99A /* stationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89855E321B9B4A30094A99A /* stationInfo.swift */; };
+		C89855E621B9CE560094A99A /* StationInfoUpdated.json in Resources */ = {isa = PBXBuildFile; fileRef = C89855E521B9CE560094A99A /* StationInfoUpdated.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C86CCEAF2188F29C00ADB0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C86CCE922188F29000ADB0B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C86CCE992188F29000ADB0B5;
+			remoteInfo = 556TransportMateFinal;
+		};
+		C86CCEBA2188F29C00ADB0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C86CCE922188F29000ADB0B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C86CCE992188F29000ADB0B5;
+			remoteInfo = 556TransportMateFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C86CCE9A2188F29000ADB0B5 /* 556TransportMateFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 556TransportMateFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86CCE9D2188F29000ADB0B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C86CCE9F2188F29000ADB0B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C86CCEA22188F29000ADB0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C86CCEA42188F29C00ADB0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C86CCEA72188F29C00ADB0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C86CCEA92188F29C00ADB0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86CCEAE2188F29C00ADB0B5 /* 556TransportMateFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 556TransportMateFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86CCEB22188F29C00ADB0B5 /* _56TransportMateFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _56TransportMateFinalTests.swift; sourceTree = "<group>"; };
+		C86CCEB42188F29C00ADB0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86CCEB92188F29C00ADB0B5 /* 556TransportMateFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 556TransportMateFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86CCEBD2188F29C00ADB0B5 /* _56TransportMateFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _56TransportMateFinalUITests.swift; sourceTree = "<group>"; };
+		C86CCEBF2188F29C00ADB0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86CCECB2188F44200ADB0B5 /* screen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen2ViewController.swift; sourceTree = "<group>"; };
+		C86CCECD2188F4CD00ADB0B5 /* screen3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen3ViewController.swift; sourceTree = "<group>"; };
+		C86CCECF2188F51B00ADB0B5 /* screen4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen4ViewController.swift; sourceTree = "<group>"; };
+		C86CCED12188F5F400ADB0B5 /* transm8logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transm8logo.png; path = ../../../../../Downloads/transm8logo.png; sourceTree = "<group>"; };
+		C89855E321B9B4A30094A99A /* stationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stationInfo.swift; sourceTree = "<group>"; };
+		C89855E521B9CE560094A99A /* StationInfoUpdated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StationInfoUpdated.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C86CCE972188F29000ADB0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86CCEAB2188F29C00ADB0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86CCEB62188F29C00ADB0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C86CCE912188F29000ADB0B5 = {
+			isa = PBXGroup;
+			children = (
+				C86CCE9C2188F29000ADB0B5 /* 556TransportMateFinal */,
+				C86CCEB12188F29C00ADB0B5 /* 556TransportMateFinalTests */,
+				C86CCEBC2188F29C00ADB0B5 /* 556TransportMateFinalUITests */,
+				C86CCE9B2188F29000ADB0B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C86CCE9B2188F29000ADB0B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C86CCE9A2188F29000ADB0B5 /* 556TransportMateFinal.app */,
+				C86CCEAE2188F29C00ADB0B5 /* 556TransportMateFinalTests.xctest */,
+				C86CCEB92188F29C00ADB0B5 /* 556TransportMateFinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C86CCE9C2188F29000ADB0B5 /* 556TransportMateFinal */ = {
+			isa = PBXGroup;
+			children = (
+				C89855E521B9CE560094A99A /* StationInfoUpdated.json */,
+				C86CCE9D2188F29000ADB0B5 /* AppDelegate.swift */,
+				C86CCE9F2188F29000ADB0B5 /* ViewController.swift */,
+				C86CCEA12188F29000ADB0B5 /* Main.storyboard */,
+				C86CCECF2188F51B00ADB0B5 /* screen4ViewController.swift */,
+				C86CCECD2188F4CD00ADB0B5 /* screen3ViewController.swift */,
+				C86CCECB2188F44200ADB0B5 /* screen2ViewController.swift */,
+				C89855E321B9B4A30094A99A /* stationInfo.swift */,
+				C86CCEA42188F29C00ADB0B5 /* Assets.xcassets */,
+				C86CCED12188F5F400ADB0B5 /* transm8logo.png */,
+				C86CCEA62188F29C00ADB0B5 /* LaunchScreen.storyboard */,
+				C86CCEA92188F29C00ADB0B5 /* Info.plist */,
+			);
+			path = 556TransportMateFinal;
+			sourceTree = "<group>";
+		};
+		C86CCEB12188F29C00ADB0B5 /* 556TransportMateFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				C86CCEB22188F29C00ADB0B5 /* _56TransportMateFinalTests.swift */,
+				C86CCEB42188F29C00ADB0B5 /* Info.plist */,
+			);
+			path = 556TransportMateFinalTests;
+			sourceTree = "<group>";
+		};
+		C86CCEBC2188F29C00ADB0B5 /* 556TransportMateFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C86CCEBD2188F29C00ADB0B5 /* _56TransportMateFinalUITests.swift */,
+				C86CCEBF2188F29C00ADB0B5 /* Info.plist */,
+			);
+			path = 556TransportMateFinalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C86CCE992188F29000ADB0B5 /* 556TransportMateFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86CCEC22188F29C00ADB0B5 /* Build configuration list for PBXNativeTarget "556TransportMateFinal" */;
+			buildPhases = (
+				C86CCE962188F29000ADB0B5 /* Sources */,
+				C86CCE972188F29000ADB0B5 /* Frameworks */,
+				C86CCE982188F29000ADB0B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 556TransportMateFinal;
+			productName = 556TransportMateFinal;
+			productReference = C86CCE9A2188F29000ADB0B5 /* 556TransportMateFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C86CCEAD2188F29C00ADB0B5 /* 556TransportMateFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86CCEC52188F29C00ADB0B5 /* Build configuration list for PBXNativeTarget "556TransportMateFinalTests" */;
+			buildPhases = (
+				C86CCEAA2188F29C00ADB0B5 /* Sources */,
+				C86CCEAB2188F29C00ADB0B5 /* Frameworks */,
+				C86CCEAC2188F29C00ADB0B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C86CCEB02188F29C00ADB0B5 /* PBXTargetDependency */,
+			);
+			name = 556TransportMateFinalTests;
+			productName = 556TransportMateFinalTests;
+			productReference = C86CCEAE2188F29C00ADB0B5 /* 556TransportMateFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C86CCEB82188F29C00ADB0B5 /* 556TransportMateFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86CCEC82188F29C00ADB0B5 /* Build configuration list for PBXNativeTarget "556TransportMateFinalUITests" */;
+			buildPhases = (
+				C86CCEB52188F29C00ADB0B5 /* Sources */,
+				C86CCEB62188F29C00ADB0B5 /* Frameworks */,
+				C86CCEB72188F29C00ADB0B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C86CCEBB2188F29C00ADB0B5 /* PBXTargetDependency */,
+			);
+			name = 556TransportMateFinalUITests;
+			productName = 556TransportMateFinalUITests;
+			productReference = C86CCEB92188F29C00ADB0B5 /* 556TransportMateFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C86CCE922188F29000ADB0B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = SFSU;
+				TargetAttributes = {
+					C86CCE992188F29000ADB0B5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C86CCEAD2188F29C00ADB0B5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C86CCE992188F29000ADB0B5;
+					};
+					C86CCEB82188F29C00ADB0B5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C86CCE992188F29000ADB0B5;
+					};
+				};
+			};
+			buildConfigurationList = C86CCE952188F29000ADB0B5 /* Build configuration list for PBXProject "556TransportMateFinal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C86CCE912188F29000ADB0B5;
+			productRefGroup = C86CCE9B2188F29000ADB0B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C86CCE992188F29000ADB0B5 /* 556TransportMateFinal */,
+				C86CCEAD2188F29C00ADB0B5 /* 556TransportMateFinalTests */,
+				C86CCEB82188F29C00ADB0B5 /* 556TransportMateFinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C86CCE982188F29000ADB0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86CCED22188F5F400ADB0B5 /* transm8logo.png in Resources */,
+				C89855E621B9CE560094A99A /* StationInfoUpdated.json in Resources */,
+				C86CCEA82188F29C00ADB0B5 /* LaunchScreen.storyboard in Resources */,
+				C86CCEA52188F29C00ADB0B5 /* Assets.xcassets in Resources */,
+				C86CCEA32188F29000ADB0B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86CCEAC2188F29C00ADB0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86CCEB72188F29C00ADB0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C86CCE962188F29000ADB0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89855E421B9B4A30094A99A /* stationInfo.swift in Sources */,
+				C86CCECE2188F4CD00ADB0B5 /* screen3ViewController.swift in Sources */,
+				C86CCEA02188F29000ADB0B5 /* ViewController.swift in Sources */,
+				C86CCECC2188F44200ADB0B5 /* screen2ViewController.swift in Sources */,
+				C86CCED02188F51B00ADB0B5 /* screen4ViewController.swift in Sources */,
+				C86CCE9E2188F29000ADB0B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86CCEAA2188F29C00ADB0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86CCEB32188F29C00ADB0B5 /* _56TransportMateFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86CCEB52188F29C00ADB0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86CCEBE2188F29C00ADB0B5 /* _56TransportMateFinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C86CCEB02188F29C00ADB0B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C86CCE992188F29000ADB0B5 /* 556TransportMateFinal */;
+			targetProxy = C86CCEAF2188F29C00ADB0B5 /* PBXContainerItemProxy */;
+		};
+		C86CCEBB2188F29C00ADB0B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C86CCE992188F29000ADB0B5 /* 556TransportMateFinal */;
+			targetProxy = C86CCEBA2188F29C00ADB0B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C86CCEA12188F29000ADB0B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86CCEA22188F29000ADB0B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C86CCEA62188F29C00ADB0B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86CCEA72188F29C00ADB0B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C86CCEC02188F29C00ADB0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C86CCEC12188F29C00ADB0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C86CCEC32188F29C00ADB0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 556TransportMateFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fall-2018.-56TransportMateFinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C86CCEC42188F29C00ADB0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 556TransportMateFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fall-2018.-56TransportMateFinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C86CCEC62188F29C00ADB0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 556TransportMateFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fall-2018.-56TransportMateFinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/556TransportMateFinal.app/556TransportMateFinal";
+			};
+			name = Debug;
+		};
+		C86CCEC72188F29C00ADB0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 556TransportMateFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fall-2018.-56TransportMateFinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/556TransportMateFinal.app/556TransportMateFinal";
+			};
+			name = Release;
+		};
+		C86CCEC92188F29C00ADB0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 556TransportMateFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fall-2018.-56TransportMateFinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 556TransportMateFinal;
+			};
+			name = Debug;
+		};
+		C86CCECA2188F29C00ADB0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 556TransportMateFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fall-2018.-56TransportMateFinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 556TransportMateFinal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C86CCE952188F29000ADB0B5 /* Build configuration list for PBXProject "556TransportMateFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86CCEC02188F29C00ADB0B5 /* Debug */,
+				C86CCEC12188F29C00ADB0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86CCEC22188F29C00ADB0B5 /* Build configuration list for PBXNativeTarget "556TransportMateFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86CCEC32188F29C00ADB0B5 /* Debug */,
+				C86CCEC42188F29C00ADB0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86CCEC52188F29C00ADB0B5 /* Build configuration list for PBXNativeTarget "556TransportMateFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86CCEC62188F29C00ADB0B5 /* Debug */,
+				C86CCEC72188F29C00ADB0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86CCEC82188F29C00ADB0B5 /* Build configuration list for PBXNativeTarget "556TransportMateFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86CCEC92188F29C00ADB0B5 /* Debug */,
+				C86CCECA2188F29C00ADB0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C86CCE922188F29000ADB0B5 /* Project object */;
+}
