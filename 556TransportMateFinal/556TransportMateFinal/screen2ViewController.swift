@@ -10,6 +10,8 @@ import UIKit
 
 class screen2ViewController: UIViewController {
 
+    @IBOutlet weak var calTrainImg: UIImageView!
+    
     var station : StationInfo?
 
     override func viewDidLoad() {
