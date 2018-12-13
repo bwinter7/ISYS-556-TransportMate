@@ -7,6 +7,7 @@
 //
 
 import UIKit
+
 struct Station : Decodable {
     
    let STATIONNAME: String
@@ -17,7 +18,7 @@ struct Station : Decodable {
    let ADDRESS: String
     
 }
-class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+class ViewController: UIViewController, UIPickerViewDataSource  {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         <#code#>
     }
@@ -26,10 +27,13 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         <#code#>
     }
     
+ 
+    
     var stations = [Station]()
  
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
         let path = Bundle.main.path(forResource: "StationInfoUpdated", ofType:"json")
         let url = URL(fileURLWithPath: path!)
@@ -53,5 +57,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
 
 
-}
 
+
+}

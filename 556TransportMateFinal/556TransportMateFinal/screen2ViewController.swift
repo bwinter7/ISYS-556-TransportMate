@@ -8,12 +8,20 @@
 
 import UIKit
 
-class screen2ViewController: UIViewController {
+class screen2ViewController: UIViewController,UIPickerViewDelegate {
 
     @IBOutlet weak var calTrainImg: UIImageView!
     
     var station : StationInfo?
 
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        <#code#>
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        <#code#>
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

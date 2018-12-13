@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="emf-eJ-s4c">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="3WE-vo-92R">
+            <objects>
+                <navigationController id="emf-eJ-s4c" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jn2-bx-pmv">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="Segue0" id="xfj-68-kZl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cVg-cS-VP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-503" y="27"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -47,7 +62,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="pC1-Nz-gNH" kind="show" id="2Kg-nt-lQL"/>
+                        <segue destination="pC1-Nz-gNH" kind="show" identifier="Segue1" id="2Kg-nt-lQL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -109,7 +124,7 @@
                     </view>
                     <connections>
                         <outlet property="calTrainImg" destination="qFE-Bd-fZ7" id="38D-tf-BiW"/>
-                        <segue destination="tgY-QI-0So" kind="show" id="lbb-uy-WVM"/>
+                        <segue destination="tgY-QI-0So" kind="show" identifier="Segue2" id="lbb-uy-WVM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tu1-py-hrU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -123,16 +138,30 @@
                     <view key="view" contentMode="scaleToFill" id="2Oy-Ak-Pvq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Q2n-up-V7f">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Q2n-up-V7f" firstAttribute="top" secondItem="r6g-Go-HV6" secondAttribute="top" id="9Z4-Cg-mEg"/>
+                            <constraint firstItem="Q2n-up-V7f" firstAttribute="trailing" secondItem="r6g-Go-HV6" secondAttribute="trailing" id="BIF-kg-MMn"/>
+                            <constraint firstItem="Q2n-up-V7f" firstAttribute="centerY" secondItem="2Oy-Ak-Pvq" secondAttribute="centerY" id="Jrw-uF-vLD"/>
+                            <constraint firstItem="Q2n-up-V7f" firstAttribute="bottom" secondItem="r6g-Go-HV6" secondAttribute="bottom" id="e7f-5c-Ecg"/>
+                            <constraint firstItem="Q2n-up-V7f" firstAttribute="leading" secondItem="r6g-Go-HV6" secondAttribute="leading" id="tIT-JE-Oax"/>
+                            <constraint firstItem="Q2n-up-V7f" firstAttribute="centerX" secondItem="2Oy-Ak-Pvq" secondAttribute="centerX" id="vHk-4l-VwY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="r6g-Go-HV6"/>
                     </view>
                     <connections>
-                        <segue destination="lrH-ez-wtm" kind="show" id="Xwc-Yu-D3E"/>
+                        <outlet property="mapView" destination="Q2n-up-V7f" id="lvh-oO-dBu"/>
+                        <segue destination="lrH-ez-wtm" kind="show" identifier="Segue3" id="Xwc-Yu-D3E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Fc-dU-tdb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2057" y="27"/>
+            <point key="canvasLocation" x="2056.8000000000002" y="26.53673163418291"/>
         </scene>
         <!--Screen4 View Controller-->
         <scene sceneID="SCj-Ls-zV8">
@@ -141,19 +170,42 @@
                     <view key="view" contentMode="scaleToFill" id="Wf3-6u-xKt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin" translatesAutoresizingMaskIntoConstraints="NO" id="WtR-yd-1L1">
+                                <rect key="frame" x="0.0" y="155" width="375" height="512"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="7Si-P3-lu8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You have arrived at your destination!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPL-tX-WqS">
+                                <rect key="frame" x="8" y="56" width="359" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dXV-05-y8I" firstAttribute="bottom" secondItem="WtR-yd-1L1" secondAttribute="bottom" id="86c-wa-dMi"/>
+                            <constraint firstItem="WtR-yd-1L1" firstAttribute="leading" secondItem="dXV-05-y8I" secondAttribute="leading" id="GX1-li-Lnd"/>
+                            <constraint firstItem="WtR-yd-1L1" firstAttribute="trailing" secondItem="dXV-05-y8I" secondAttribute="trailing" id="iUy-hV-gXQ"/>
+                            <constraint firstItem="dXV-05-y8I" firstAttribute="trailing" secondItem="WtR-yd-1L1" secondAttribute="trailing" id="ldc-uh-XH7"/>
+                            <constraint firstItem="dXV-05-y8I" firstAttribute="bottom" secondItem="WtR-yd-1L1" secondAttribute="bottom" id="y7h-gp-Eb9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="dXV-05-y8I"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggT-LH-rHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3022" y="27"/>
+            <point key="canvasLocation" x="3021.5999999999999" y="26.53673163418291"/>
         </scene>
     </scenes>
     <resources>
         <image name="bart" width="2000" height="1263"/>
         <image name="caltrainlogo" width="1280" height="723"/>
         <image name="muni" width="2000" height="1133"/>
-        <image name="transm8logo" width="860" height="653"/>
+        <image name="pin" width="512" height="512"/>
+        <image name="transm8logo" width="206.39999389648438" height="156.72000122070312"/>
     </resources>
 </document>

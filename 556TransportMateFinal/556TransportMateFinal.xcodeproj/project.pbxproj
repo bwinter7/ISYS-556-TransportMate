@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84AD6B321C06FB8008C8396 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = C84AD6B221C06FB8008C8396 /* pin.png */; };
 		C86CCE9E2188F29000ADB0B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCE9D2188F29000ADB0B5 /* AppDelegate.swift */; };
 		C86CCEA02188F29000ADB0B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CCE9F2188F29000ADB0B5 /* ViewController.swift */; };
 		C86CCEA32188F29000ADB0B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86CCEA12188F29000ADB0B5 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C84AD6B221C06FB8008C8396 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
 		C86CCE9A2188F29000ADB0B5 /* 556TransportMateFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 556TransportMateFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86CCE9D2188F29000ADB0B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C86CCE9F2188F29000ADB0B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				C86CCECB2188F44200ADB0B5 /* screen2ViewController.swift */,
 				C89855E321B9B4A30094A99A /* stationInfo.swift */,
 				C86CCEA42188F29C00ADB0B5 /* Assets.xcassets */,
+				C84AD6B221C06FB8008C8396 /* pin.png */,
 				C86CCED12188F5F400ADB0B5 /* transm8logo.png */,
 				C86CCEA62188F29C00ADB0B5 /* LaunchScreen.storyboard */,
 				C86CCEA92188F29C00ADB0B5 /* Info.plist */,
@@ -250,6 +253,7 @@
 				C86CCED22188F5F400ADB0B5 /* transm8logo.png in Resources */,
 				C89855E621B9CE560094A99A /* StationInfoUpdated.json in Resources */,
 				C86CCEA82188F29C00ADB0B5 /* LaunchScreen.storyboard in Resources */,
+				C84AD6B321C06FB8008C8396 /* pin.png in Resources */,
 				C86CCEA52188F29C00ADB0B5 /* Assets.xcassets in Resources */,
 				C86CCEA32188F29000ADB0B5 /* Main.storyboard in Resources */,
 			);
