@@ -30,6 +30,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
 
     let locationManager:CLLocationManager = CLLocationManager()
     
+    @IBAction func screen2button(_ sender: Any) {
+        performSegue(withIdentifier: "screen2", sender: self)
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +49,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         let region = CLCircularRegion(center: center, radius: 100.0, identifier: "SFSU Business")
         region.notifyOnEntry = true
         region.notifyOnExit = false
-        let trigger = UNLocationNotificationTrigger(region: region, repeats: false)
+        //let trigger = UNLocationNotificationTrigger(region: region, repeats: false)
     
         
     }
