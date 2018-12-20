@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import CoreLocation
+import UserNotifications
 
 struct Station : Decodable {
     
@@ -18,45 +20,36 @@ struct Station : Decodable {
    let ADDRESS: String
     
 }
-class ViewController: UIViewController, UIPickerViewDataSource  {
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        <#code#>
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        <#code#>
-    }
-    
- 
-    
+
+
     var stations = [Station]()
- 
+
+class UNLocationNotificationTrigger : UNNotificationTrigger{}
+
+class ViewController: UIViewController, CLLocationManagerDelegate{
+
+    let locationManager:CLLocationManager = CLLocationManager()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        locationManager.delegate = self
+    
+        locationManager.requestWhenInUseAuthorization()
         
-        // Do any additional setup after loading the view, typically from a nib.
-        let path = Bundle.main.path(forResource: "StationInfoUpdated", ofType:"json")
-        let url = URL(fileURLWithPath: path!)
-        do{
-            let data = try Data(contentsOf: url)
-            self.stations = try JSONDecoder().decode([Station].self, from: data)
-            for eachStation in self.stations {
-                print(
-                    eachStation.STATIONNAME,
-                    eachStation.LATITUDE,
-                    eachStation.LONGITUDE,
-                    eachStation.DESCRIPTION,
-                    eachStation.DISTANCEFROMSF1,
-                    eachStation.ADDRESS
-                )
-            }
-        }
-        catch{
-            print("Json Error")
-        }
+        locationManager.startUpdatingLocation()
+    
+        
+       let center = CLLocationCoordinate2D(latitude: 37.7212, longitude: -122.47684379999998)
+        let region = CLCircularRegion(center: center, radius: 100.0, identifier: "SFSU Business")
+        region.notifyOnEntry = true
+        region.notifyOnExit = false
+        let trigger = UNLocationNotificationTrigger(region: region, repeats: false)
+    
+        
     }
 
-
-
-
 }
+
+

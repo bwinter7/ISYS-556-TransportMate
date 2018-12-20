@@ -80,12 +80,12 @@
     "ADDRESS":"401 Concar Drive, San Mateo 94402",
   },
      {
-         "STATIONNAME":"SFSU College of Business",
-         "LATITUDE":37.722312,
-         "LONGITUDE":-122.476506,
-         "DESCRIPTION":"The test station for our demo",
+         "STATIONNAME":"SFSU Business",
+         "LATITUDE":37.7212,
+         "LONGITUDE":-122.47684379999998,
+         "DESCRIPTION":"The test location for class",
          "DISTANCEFROMSF1":0,
-         "ADDRESS":"1600 Holloway Ave, San Francisco, CA 94132",
+         "ADDRESS":"1600 Holloway Ave, San Francisco, CA 94132, USA",
      }
   
   ]
